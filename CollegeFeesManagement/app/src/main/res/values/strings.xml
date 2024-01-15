@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Fees Manager</string>
+    <array name="caste">
+        <item>OPEN</item>
+        <item>OBC</item>
+        <item>SC</item>
+        <item>St</item>
+        <item>VJNT</item>
+    </array>
+
+    <array name="year">
+        <item>F.E</item>
+        <item>S.E</item>
+        <item>T.E</item>
+        <item>B.E</item>
+    </array>
+
+    <array name="branch">
+        <item>MECH</item>
+        <item>CS</item>
+        <item>IT</item>
+        <item>ENTC</item>
+        <item>CIVIL</item>
+    </array>
+</resources>

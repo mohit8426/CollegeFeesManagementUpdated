@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1069492390474",
+    "firebase_url": "https://college-fees-management-app.firebaseio.com",
+    "project_id": "college-fees-management-app",
+    "storage_bucket": "college-fees-management-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1069492390474:android:3c589f45c4978197f8f4b3",
+        "android_client_info": {
+          "package_name": "com.example.collegefeesmanagement"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1069492390474-344i0v40oup1qe6bu9120jb98j7l2cnc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBMh7PhW1URCOUbBkqQai64fC8WQRlkIkM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1069492390474-344i0v40oup1qe6bu9120jb98j7l2cnc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

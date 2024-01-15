@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.collegefeesmanagement">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="CFM"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".pendinglist"></activity>
+        <activity android:name=".All_Pending"
+            android:label="STUDENT PENDING LIST"/>
+        <activity
+            android:name=".All_Admission"
+            android:label="ADDMISSION LIST" />
+        <activity android:name=".adminlist" />
+        <activity
+            android:name=".PayOnline"
+            android:label="PAYMENT PROCESS" />
+        <activity android:name=".Update"
+            android:label="STUDENT INFO UPDATION PROCESS"/>
+        <activity
+            android:name=".Delete"
+            android:gravity="center"
+            android:label="DELETE STUDENT PROCESS" />
+        <activity
+            android:name=".Payment"
+            android:label="PAYMENT PROCESS" />
+        <activity
+            android:name=".Insert_Activity"
+            android:label="STUDENT REGISTRATION PROCESS" />
+        <activity
+            android:name=".First_Activity"
+            android:label="COLLEGE FEES MANAGEMENT" />
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.gms.wallet.api.enabled"
+            android:value="true" />
+    </application>
+
+</manifest>
